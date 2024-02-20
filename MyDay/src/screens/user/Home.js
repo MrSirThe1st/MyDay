@@ -23,9 +23,7 @@ const Home = ({ navigation }) => {
       <View style={styles.categories}>
         <Services />
       </View>
-      <View style={{flex:1}}>
-
-      </View>
+      <View style={{ flex: 1 }}></View>
     </SafeAreaView>
   );
 };
@@ -48,7 +46,7 @@ const styles = StyleSheet.create({
     zIndex: 1,
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
-    elevation: 50
+    elevation: 50,
   },
   categories: {
     alignItems: "center",

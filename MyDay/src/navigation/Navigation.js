@@ -39,6 +39,22 @@ const HomeTabNavigator = () => (
       }}
     />
     <Tab.Screen
+      name="Search"
+      component={Vendors}
+      options={{
+        headerShown: false,
+        tabBarLabel: "Search",
+        tabBarIcon: ({ focused }) => (
+          <Feather
+            name="star"
+            chatmessage
+            size={24}
+            color={focused ? primaryPink : "black"}
+          />
+        ),
+      }}
+    />
+    <Tab.Screen
       name="Vendors"
       component={Vendors}
       options={{
